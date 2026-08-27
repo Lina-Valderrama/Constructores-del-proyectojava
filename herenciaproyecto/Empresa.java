@@ -72,3 +72,8 @@ class Pedido extends Empresa{
     }
     
 }
+class Principal{
+    public static void main(String[] args) {
+    
+}
+}
