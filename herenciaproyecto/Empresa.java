@@ -78,7 +78,11 @@ class Principal{
     public static void main(String[] args) {
         
         Producto producto = new Producto();
-        
+        producto.nombreProducto= "Celular";
+        producto.categoria= "Tecnologia";
+        producto.precio= 500.000;
+        producto.cantidad= 1;
+ 
  
  
 }
