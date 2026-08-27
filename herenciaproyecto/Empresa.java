@@ -9,5 +9,6 @@ package herenciaproyecto;
  * @author Dora
  */
 public class Empresa {
-    
+    String nombre;
+    String propietario;
 }
