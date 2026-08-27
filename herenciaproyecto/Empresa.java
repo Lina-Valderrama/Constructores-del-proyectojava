@@ -31,7 +31,7 @@ public class Empresa {
          System.out.println("Precio: " + precio);
          System.out.println("Cantidad: " + cantidad);
      }
- class Empleado{
+ class Empleado extends Empresa{
      
  }
  }
