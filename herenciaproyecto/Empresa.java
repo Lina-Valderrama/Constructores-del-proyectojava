@@ -8,6 +8,7 @@ package herenciaproyecto;
  *
  * @author Dora
  */
+import java.util.Scanner;
 public class Empresa {
     String nombre;
     String propietario;
@@ -82,6 +83,9 @@ class Principal{
         producto.categoria= "Tecnologia";
         producto.precio= 500.000;
         producto.cantidad= 1;
+        
+        Empleado empleado = new Empleado();
+        
  
  
  
