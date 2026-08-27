@@ -32,6 +32,10 @@ public class Empresa {
          System.out.println("Cantidad: " + cantidad);
      }
  class Empleado extends Empresa{
+     String cargo;
+     double salario;
+     int edad;
+     
      
  }
  }
