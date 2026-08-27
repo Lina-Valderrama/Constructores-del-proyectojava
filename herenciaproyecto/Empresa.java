@@ -24,4 +24,11 @@ public class Empresa {
      String categoria;
      double precio;
      int cantidad;
+     
+     public void mostrarProducto(){
+         System.out.println("Product: " + nombreProducto);
+         System.out.println("Categoria: " + categoria);
+         System.out.println("Precio: " + precio);
+         System.out.println("Cantidad: " + cantidad);
+     }
  }
