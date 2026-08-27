@@ -72,10 +72,14 @@ class Pedido extends Empresa{
     }
     
 }
+
 class Principal{
+    Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
         
         Producto producto = new Producto();
+        
+ 
  
 }
 }
