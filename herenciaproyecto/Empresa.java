@@ -61,6 +61,9 @@ class Cliente extends Empresa{
     
 }
 class Pedido extends Empresa{
+    int numeroPedido;
+    String fecha;
+    double total;
     
     
 }
