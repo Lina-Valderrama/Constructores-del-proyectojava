@@ -60,3 +60,6 @@ class Cliente extends Empresa{
     }
     
 }
+class Pedido{
+    
+}
