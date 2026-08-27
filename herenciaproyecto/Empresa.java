@@ -48,5 +48,8 @@ public class Empresa {
  }
 
 class Cliente extends Empresa{
+    String telefono;
+    int edad;
+    boolean activo;
     
 }
