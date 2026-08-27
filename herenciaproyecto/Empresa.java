@@ -52,4 +52,11 @@ class Cliente extends Empresa{
     int edad;
     boolean activo;
     
+    public void mostrarCliente(){
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Telefono: " + telefono);
+        System.out.println("Edad: " + edad);
+        System.out.println("Activo: " + activo);
+    }
+    
 }
