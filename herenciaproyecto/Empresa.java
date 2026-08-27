@@ -18,7 +18,7 @@ public class Empresa {
     }
         
     }
- class Producto{
+ class Producto extends Empresa {
     
      
  }
