@@ -42,8 +42,11 @@ public class Empresa {
          System.out.println("Cargo: " + cargo);
          System.out.println("Salario: " + salario);
          System.out.println("Edad: " + edad);    
-     }
+     }   
      
      
  }
- 
+
+class Cliente extends Empresa{
+    
+}
