@@ -20,5 +20,8 @@ public class Empresa {
     }
  class Producto extends Empresa {
     
-     
+     String nombreProducto;
+     String categoria;
+     double precio;
+     int cantidad;
  }
