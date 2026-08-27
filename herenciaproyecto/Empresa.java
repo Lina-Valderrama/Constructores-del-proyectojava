@@ -16,4 +16,9 @@ public class Empresa {
         System.out.println("Nombre:" + nombre);
         System.out.println("Propietario:" + propietario);
     }
-}
+        
+    }
+ class Producto{
+    
+     
+ }
