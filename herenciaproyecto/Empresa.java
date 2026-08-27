@@ -64,6 +64,11 @@ class Pedido extends Empresa{
     int numeroPedido;
     String fecha;
     double total;
-    
+   
+    public void mostrarPedido(){
+        System.out.println("Numero de Pedido: " + numeroPedido);
+        System.out.println("Fecha: " + fecha);
+        System.out.println("Total a pagar: " + total);
+    }
     
 }
