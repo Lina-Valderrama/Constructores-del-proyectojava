@@ -31,6 +31,7 @@ public class Empresa {
          System.out.println("Precio: " + precio);
          System.out.println("Cantidad: " + cantidad);
      }
+ }
  class Empleado extends Empresa{
      String cargo;
      double salario;
@@ -41,8 +42,8 @@ public class Empresa {
          System.out.println("Cargo: " + cargo);
          System.out.println("Salario: " + salario);
          System.out.println("Edad: " + edad);    
- }
+     }
      
      
  }
- }
+ 
