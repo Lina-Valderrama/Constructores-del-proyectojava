@@ -36,6 +36,13 @@ public class Empresa {
      double salario;
      int edad;
      
+     public void mostrarEmpleado(){
+         System.out.println("Nombre: " + nombre);
+         System.out.println("Cargo: " + cargo);
+         System.out.println("Salario: " + salario);
+         System.out.println("Edad: " + edad);    
+ }
+     
      
  }
  }
