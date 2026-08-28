@@ -82,7 +82,8 @@ class Cliente extends Empresa{
     
          public Cliente(){
     }
-     public Cliente(String telefono, int edad, boolean activo) {
+     public Cliente(String nombre,String telefono, int edad, boolean activo){
+         this.nombre= nombre;
         this.telefono = telefono;
         this.edad = edad;
         this.activo = activo;
@@ -124,12 +125,7 @@ class Principal{
          Empresa empresa = new Empresa( "Empresa Tecnologia", "Juan Perez" );
          Producto producto = new Producto("Celular","Tecnologia",500.000,1);
         Empleado empleado = new Empleado("Carlos Herazo","Vendedor",15000000,31);
-        
-        
-        Cliente cliente = new Cliente();
-        cliente.nombre= "Valeria Ruiz";
-        cliente.telefono= "3112567843";
-        cliente.edad= 27;
+        Cliente cliente = new Cliente( "Valeria Ruiz","3112567843",27,true);
         
         Pedido pedido = new Pedido();
             pedido.numeroPedido= 16;
