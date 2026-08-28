@@ -54,6 +54,8 @@ public class Empresa {
      String cargo;
      double salario;
      int edad;
+     public Empleado(){
+    }
      
      public Empleado(String nombre, String propietario, String cargo,
                 double salario, int edad) {
