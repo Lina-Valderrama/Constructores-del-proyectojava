@@ -34,13 +34,10 @@ public class Empresa {
      double precio;
      int cantidad;
      
-      public Producto (){
+      public Producto(){
     }
      
-     public Producto(String nombre, String propietario, String nombreProducto,
-                String categoria, double precio, int cantidad) {
-    this.nombre = nombre;
-    this.propietario = propietario;
+     public Producto(String nombreProducto,String categoria, double precio, int cantidad) {
     this.nombreProducto = nombreProducto;
     this.categoria = categoria;
     this.precio = precio;
@@ -124,12 +121,14 @@ class Principal{
     public static void main(String[] args) {
         
          Empresa empresa = new Empresa( "Empresa Tecnologia", "Juan Perez" );
+         Producto producto = new Producto("Celular","Tecnologia",500.000,1);
         
         Empleado empleado = new Empleado();
         empleado.nombre= "Carlos Herazo";
         empleado.cargo= "Vendedor";
         empleado.salario= 15000000;
         empleado.edad= 31;
+        
         
         Cliente cliente = new Cliente();
         cliente.nombre= "Valeria Ruiz";
