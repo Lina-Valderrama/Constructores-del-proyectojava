@@ -101,6 +101,10 @@ class Principal{
             pedido.numeroPedido= 16;
             pedido.fecha= "15 de agosto";
             pedido.total= 15.000;
+         producto.mostrarProducto();
+        empleado.mostrarEmpleado();
+        cliente.mostrarCliente();
+        pedido.mostrarPedido();
         
         System.out.print("¿El cliente está activo? (1 = Sí, 2 = No): ");
         int opcion = scanner.nextInt();
