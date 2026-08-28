@@ -90,6 +90,11 @@ class Principal{
         empleado.salario= 15000000;
         empleado.edad= 31;
         
+        Cliente cliente = new Cliente();
+        cliente.nombre= "Valeria Ruiz";
+        cliente.telefono= "3112567843";
+        cliente.edad= 27;
+        
         
  
  
