@@ -84,6 +84,12 @@ class Cliente extends Empresa{
         this.edad = edad;
         this.activo = activo;
      }
+     public void mostrarCliente() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Telefono: " + telefono);
+        System.out.println("Edad: " + edad);
+        System.out.println("Activo: " + activo);
+     }
     
     }
     
@@ -114,6 +120,7 @@ class Principal{
    
     public static void main(String[] args) {
         
+         Empresa empresa = new Empresa( "Empresa Tecnologia", "Juan Perez" );
         
         Producto producto = new Producto();
         producto.nombreProducto= "Celular";
@@ -136,6 +143,8 @@ class Principal{
             pedido.numeroPedido= 16;
             pedido.fecha= "15 de agosto";
             pedido.total= 15.000;
+            
+         empresa.mostrarDatos();
          producto.mostrarProducto();
         empleado.mostrarEmpleado();
         cliente.mostrarCliente();
