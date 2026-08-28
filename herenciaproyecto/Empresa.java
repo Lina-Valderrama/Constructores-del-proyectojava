@@ -85,6 +85,11 @@ class Principal{
         producto.cantidad= 1;
         
         Empleado empleado = new Empleado();
+        empleado.nombre= "Carlos Herazo";
+        empleado.cargo= "Vendedor";
+        empleado.salario= 15000000;
+        empleado.edad= 31;
+        
         
  
  
