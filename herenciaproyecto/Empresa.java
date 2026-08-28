@@ -91,6 +91,15 @@ class Pedido extends Empresa{
     int numeroPedido;
     String fecha;
     double total;
+    
+    public Pedido(String nombre, String propietario, int numeroPedido,
+              String fecha, double total) {
+    this.nombre = nombre;
+    this.propietario = propietario;
+    this.numeroPedido = numeroPedido;
+    this.fecha = fecha;
+    this.total = total;
+    }
    
     public void mostrarPedido(){
         System.out.println("Numero de Pedido: " + numeroPedido);
