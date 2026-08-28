@@ -34,6 +34,15 @@ public class Empresa {
      double precio;
      int cantidad;
      
+     public Producto(String nombre, String propietario, String nombreProducto,
+                String categoria, double precio, int cantidad) {
+    this.nombre = nombre;
+    this.propietario = propietario;
+    this.nombreProducto = nombreProducto;
+    this.categoria = categoria;
+    this.precio = precio;
+    this.cantidad = cantidad;
+     }
      public void mostrarProducto(){
          System.out.println("Product: " + nombreProducto);
          System.out.println("Categoria: " + categoria);
