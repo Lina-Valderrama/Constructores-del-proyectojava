@@ -80,6 +80,8 @@ class Cliente extends Empresa{
     int edad;
     boolean activo;
     
+         public Cliente(){
+    }
      public Cliente(String telefono, int edad, boolean activo) {
         this.telefono = telefono;
         this.edad = edad;
@@ -99,10 +101,8 @@ class Pedido extends Empresa{
     String fecha;
     double total;
     
-    public Pedido(String nombre, String propietario, int numeroPedido,
+    public Pedido(int numeroPedido,
               String fecha, double total) {
-    this.nombre = nombre;
-    this.propietario = propietario;
     this.numeroPedido = numeroPedido;
     this.fecha = fecha;
     this.total = total;
