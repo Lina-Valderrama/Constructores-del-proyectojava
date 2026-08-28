@@ -110,6 +110,9 @@ class Principal{
         cliente.mostrarCliente();
         
         scanner.close();
+        
+        Pedido pedido = new Pedido();
+            
+        }
     }
-}
  
