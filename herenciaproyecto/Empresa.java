@@ -13,6 +13,11 @@ public class Empresa {
     String nombre;
     String propietario;
     
+    public Empresa(String nombre, String propietario) {
+    this.nombre = nombre;
+    this.propietario = propietario;
+    }
+    
     public void mostrarDatos(){
         System.out.println("Nombre:" + nombre);
         System.out.println("Propietario:" + propietario);
