@@ -71,12 +71,14 @@ class Pedido extends Empresa{
         System.out.println("Fecha: " + fecha);
         System.out.println("Total a pagar: " + total);
     }
-    
+
 }
 
 class Principal{
-    Scanner scanner = new Scanner(System.in);
+    static  Scanner scanner = new Scanner(System.in);
+   
     public static void main(String[] args) {
+        
         
         Producto producto = new Producto();
         producto.nombreProducto= "Celular";
@@ -96,8 +98,18 @@ class Principal{
         cliente.edad= 27;
         
         
- 
- 
- 
+        System.out.print("¿El cliente está activo? (1 = Sí, 2 = No): ");
+        int opcion = scanner.nextInt();
+        
+        if (opcion == 1) {
+            cliente.activo = true;
+        } else {
+            cliente.activo = false;
+        }
+        
+        cliente.mostrarCliente();
+        
+        scanner.close();
+    }
 }
-}
+ 
