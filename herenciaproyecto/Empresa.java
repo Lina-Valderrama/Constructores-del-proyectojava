@@ -129,11 +129,7 @@ class Principal{
          Producto producto = new Producto("Celular","Tecnologia",500.000,1);
         Empleado empleado = new Empleado("Carlos Herazo","Vendedor",15000000,31);
         Cliente cliente = new Cliente( "Valeria Ruiz","3112567843",27,true);
-        
-        Pedido pedido = new Pedido();
-            pedido.numeroPedido= 16;
-            pedido.fecha= "15 de agosto";
-            pedido.total= 15.000;
+        Pedido pedido = new Pedido(16,"15 de agosto",15.000);
             
          empresa.mostrarDatos();
          producto.mostrarProducto();
