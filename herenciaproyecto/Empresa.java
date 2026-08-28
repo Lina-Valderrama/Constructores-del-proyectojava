@@ -97,6 +97,10 @@ class Principal{
         cliente.telefono= "3112567843";
         cliente.edad= 27;
         
+        Pedido pedido = new Pedido();
+            pedido.numeroPedido= 16;
+            pedido.fecha= "15 de agosto";
+            pedido.total= 15.000;
         
         System.out.print("¿El cliente está activo? (1 = Sí, 2 = No): ");
         int opcion = scanner.nextInt();
@@ -110,11 +114,9 @@ class Principal{
         cliente.mostrarCliente();
         
         scanner.close();
+ 
+            
         
-        Pedido pedido = new Pedido();
-            pedido.numeroPedido= 16;
-            pedido.fecha= "15 de agosto";
-            pedido.total= 15.000;
-        }
     }
+}
  
