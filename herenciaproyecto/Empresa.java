@@ -57,10 +57,9 @@ public class Empresa {
      public Empleado(){
     }
      
-     public Empleado(String nombre, String propietario, String cargo,
+     public Empleado(String nombre, String cargo,
                 double salario, int edad) {
     this.nombre = nombre;
-    this.propietario = propietario;
     this.cargo = cargo;
     this.salario = salario;
     this.edad = edad;
@@ -124,12 +123,7 @@ class Principal{
         
          Empresa empresa = new Empresa( "Empresa Tecnologia", "Juan Perez" );
          Producto producto = new Producto("Celular","Tecnologia",500.000,1);
-        
-        Empleado empleado = new Empleado();
-        empleado.nombre= "Carlos Herazo";
-        empleado.cargo= "Vendedor";
-        empleado.salario= 15000000;
-        empleado.edad= 31;
+        Empleado empleado = new Empleado("Carlos Herazo","Vendedor",15000000,31);
         
         
         Cliente cliente = new Cliente();
