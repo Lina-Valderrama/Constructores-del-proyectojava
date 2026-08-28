@@ -55,6 +55,15 @@ public class Empresa {
      double salario;
      int edad;
      
+     public Empleado(String nombre, String propietario, String cargo,
+                double salario, int edad) {
+    this.nombre = nombre;
+    this.propietario = propietario;
+    this.cargo = cargo;
+    this.salario = salario;
+    this.edad = edad;
+     }
+     
      public void mostrarEmpleado(){
          System.out.println("Nombre: " + nombre);
          System.out.println("Cargo: " + cargo);
