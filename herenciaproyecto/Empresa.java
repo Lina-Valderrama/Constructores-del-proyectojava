@@ -102,6 +102,9 @@ class Pedido extends Empresa{
     String fecha;
     double total;
     
+     public Pedido(){
+    }
+    
     public Pedido(int numeroPedido,
               String fecha, double total) {
     this.numeroPedido = numeroPedido;
