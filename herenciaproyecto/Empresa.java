@@ -112,7 +112,9 @@ class Principal{
         scanner.close();
         
         Pedido pedido = new Pedido();
-            
+            pedido.numeroPedido= 16;
+            pedido.fecha= "15 de agosto";
+            pedido.total= 15.000;
         }
     }
  
