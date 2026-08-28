@@ -34,6 +34,9 @@ public class Empresa {
      double precio;
      int cantidad;
      
+      public Producto (){
+    }
+     
      public Producto(String nombre, String propietario, String nombreProducto,
                 String categoria, double precio, int cantidad) {
     this.nombre = nombre;
@@ -121,12 +124,6 @@ class Principal{
     public static void main(String[] args) {
         
          Empresa empresa = new Empresa( "Empresa Tecnologia", "Juan Perez" );
-        
-        Producto producto = new Producto();
-        producto.nombreProducto= "Celular";
-        producto.categoria= "Tecnologia";
-        producto.precio= 500.000;
-        producto.cantidad= 1;
         
         Empleado empleado = new Empleado();
         empleado.nombre= "Carlos Herazo";
