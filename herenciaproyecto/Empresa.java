@@ -13,6 +13,9 @@ public class Empresa {
     String nombre;
     String propietario;
     
+    public Empresa() {
+    }
+ 
     public Empresa(String nombre, String propietario) {
     this.nombre = nombre;
     this.propietario = propietario;
@@ -58,14 +61,14 @@ class Cliente extends Empresa{
     int edad;
     boolean activo;
     
-    public void mostrarCliente(){
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Telefono: " + telefono);
-        System.out.println("Edad: " + edad);
-        System.out.println("Activo: " + activo);
+     public Cliente(String telefono, int edad, boolean activo) {
+        this.telefono = telefono;
+        this.edad = edad;
+        this.activo = activo;
+     }
+    
     }
     
-}
 class Pedido extends Empresa{
     int numeroPedido;
     String fecha;
